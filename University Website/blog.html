@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | ISST UNIVERSITY</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <section class="courses-prop">
+        <nav>
+            <a href="index.html"><img src="logo.png" id = "profileimg"alt=" "></a>
+            <div class="nav-links" onclick="hidemenu()" id="navLinks">
+                <i class="bi bi-x-lg"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">EVENTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list"onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Events & Programms</h1>
+
+    </section>
+        
+  <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpg" alt="">
+            <h1>Our Events & Programms</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam corporis nihil excepturi fugiat numquam accusamus dolorum amet reiciendis vitae cum velit blanditiis rerum harum ipsum a quae optio quidem possimus consequatur, quod at ipsa quos explicabo! At aspernatur temporibus delectus aut architecto dicta quisquam minima nobis odio, mollitia consequuntur nam, quia omnis similique maxime soluta recusandae voluptas. Nulla tempore expedita sint modi quos laboriosam autem esse, quisquam architecto, inventore ullam explicabo alias, quia commodi similique consequuntur pariatur obcaecati dolore animi?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi exercitationem voluptates recusandae hic repellat numquam, sunt quidem eaque, obcaecati dolores sint placeat, corrupti reiciendis eligendi iure officia quasi esse maxime qui ratione sequi quisquam doloribus! Veniam ut maxime quaerat laboriosam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur voluptatum ipsum, nesciunt iste modi magni eligendi accusantium cumque hic dolor iusto, iure vel adipisci deleniti itaque velit blanditiis sunt! Modi qui ut esse, atque expedita doloribus minus repudiandae voluptatum magni.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus voluptatibus inventore ipsa sint officiis a non molestias unde voluptatem sequi. Ratione ipsa perferendis, illum provident cumque, a ad repudiandae aut deleniti voluptatum dolorem, soluta quam. Quis dicta soluta molestias hic, animi aspernatur est error deleniti ex commodi qui, adipisci, et dignissimos temporibus amet aperiam perferendis a odio veniam repellendus architecto iste! Facere repellat dolore harum tempora libero rem laboriosam aliquid!</p>
+
+            
+        </div>
+        <div class="blog-right">
+                <h3>Post Catagories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Human Resource</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Mathematics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Biology</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>World History</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Quantum Physics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Biology</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Geography</span>
+                    <span>21</span>
+                </div>
+
+        </div>
+    </div>
+  </section>
+
+  <section class="comment-box-full">
+
+    <div class="comment-box">
+        <h3>Leave A Comment</h3>
+
+        <form action="" class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="text" placeholder="Enter Email">
+            <textarea  rows="5" placeholder="Your Comment"></textarea>
+            <button type="submit" class="newbtn redbtn" >POST COMMENT</button>
+        </form>
+    </div>
+
+  </section>
+
+
+    <section class="footer">
+        <h4>THANK YOU FOR VISITING</h4>
+        <p>Copyright © 2022 ISST UNIVERSITY</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-messenger"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-telegram"></i>
+        </div>
+        <p>Made With  <i class="bi bi-heart"></i>  by Sourav Mohanty</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right= "0";
+        }
+        function hidemenu() {
+            navLinks.style.right= "-200px";
+        }
+    </script>
+  
+</body> 
+</html>
