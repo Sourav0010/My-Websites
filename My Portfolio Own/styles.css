@@ -1,0 +1,272 @@
+/* Global Stylings */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #EEEEEE;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background: #222831;
+}
+/* NavBar Stylings */
+
+header{
+    background: #393e46c8;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li a:hover{
+    color: #00ADB5;
+}
+nav h2{
+    font-size: 2rem;
+    flex: 2 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+}
+
+@media screen and (max-width: 932px){
+    nav{
+        text-align: center;
+    }
+    nav h2{
+        padding: 1rem;
+    }
+}
+/* Home Stylings */
+.main-section{
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+.name-plate{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:center ;
+   flex: 2 1 40rem;
+}
+.name-plate h3{
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+}
+.name-plate h2{
+    font-size: 4rem;
+    text-align: center;
+    word-spacing: 1rem;
+}
+
+.name-plate p{
+    font-size: 1.4rem;
+    text-align: center;
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.download-button{
+    display: flex;
+    flex-direction: row;
+}
+
+.download-button button{
+    background-color: #393E46;
+    padding: 1rem 2rem;
+    border: none;
+    margin-right: 4rem;
+}
+
+.download-button button:hover{
+    background-color: #222831;
+    border: 0.6px solid #EEEEEE;
+}
+
+.download-button button:nth-child(2){
+    margin-right: 0rem;
+}
+
+.main-img{
+    flex: 1 1 40rem;
+    background-image: url('/images/pic4.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+
+
+
+/* About Me Section */
+
+.about-section{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.one, .two, .three,.four,.five,.six{
+    height: 22rem;
+    width: 36rem;
+    background: #393E46;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+.first-project,.last-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3rem 0rem;
+}
+.first-project h3 , .last-project h3{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.first-project p, .last-project p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.project-section h2{
+    font-size: 7rem;
+    text-align: center;
+}
+.project-section{
+    margin-bottom: 20rem;
+}
+
+.footer-section {
+    background: #393E46;
+    height: 24rem;
+}
+
+.footer-section .follow-section{
+    display: flex;
+    max-width: 20rem;
+    flex-direction: row;
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.about-me , .project-footer, .follow-section{
+    margin-top: 4rem;
+    width: 20rem;
+}
+
+.about-me h2 , .project-footer h2, .follow-section h3{
+    font-size: 2rem;
+    text-align: center;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icons i {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+}
+.project-footer ul li, .project-footer h2{
+    text-align: center;
+}
+.project-footer ul li{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.project-footer ul{
+    list-style: none;
+}
+
+.project-footer ul li:hover{
+    color: #00ADB5;
+    cursor: pointer;
+}
+
+.about-me p{
+    text-align: center;
+}
+
+.follow-section i{
+    padding: 0.5rem 2rem;
+    font-size: 2.2rem;
+}
+.follow-section h3{
+    margin-top: 4rem;
+}
+
+.follow-section section i:hover{
+    color:#00ADB5;
+}
+
+
+/* Color Sample 
+#222831
+#393E46
+#00ADB5
+#EEEEEE 
+*/
+
