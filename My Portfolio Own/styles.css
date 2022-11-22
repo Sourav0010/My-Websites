@@ -264,6 +264,90 @@ nav h2{
     
 }
 
+/* ContactUs Form */
+.contact-us{
+    height: 100%;
+    max-width:90%;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.contact-form{
+    height: 100%;
+    width: 9
+    0%;
+    margin: auto;
+    background: #393E46;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0rem;
+}
+.contact-form h2{
+    font-size: 4rem;
+
+}
+.email-id , .user-message{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+}
+.email-id label , .user-message label{
+    flex: 1 1 10rem;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+.email-id input{
+    flex: 1 1 10rem;
+    background: #222831;
+    border: 0.4rem solid #222831;
+    border-radius: 0.4rem;
+}
+.user-message textarea{
+    flex: 3 1 10rem;
+    background: #222831;
+    border: 0.4rem solid #222831;
+    border-radius: 1rem;
+}
+.contact-form button{
+    background: #222831;
+    padding: 1rem 2rem;
+    border: none;
+}
+.contact-form button:hover{
+    background: #393E46;
+    border: 0.1rem solid #00ADB5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer Section */
 
