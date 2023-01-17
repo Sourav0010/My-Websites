@@ -24,11 +24,39 @@ body {
 /* NavBar Stylings */
 
 header {
-    background: #393e46c8;
+    background: rgba(29, 29, 29, 0.5);
     position: sticky;
     top: 0;
     z-index: 3;
     margin-bottom: 10rem;
+}
+
+.burger1,
+.burger2,
+.burger3 {
+    padding: 0.07rem;
+    background: white;
+    width: 3rem;
+    margin: 0.5rem 0rem;
+    pointer-events: none;
+}
+
+.burgers {
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .burgers {
+        opacity: 1;
+    }
+
+    .main-menu {
+        opacity: 0;
+    }
+
+    .a1 {
+        pointer-events: none;
+    }
 }
 
 nav {
@@ -40,6 +68,8 @@ nav {
     margin: auto;
     align-items: center;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
@@ -49,6 +79,12 @@ nav ul {
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
+}
+
+.main-menu {}
+
+.main-menu.active {
+    flex-direction: column;
 }
 
 nav ul li {
@@ -437,8 +473,14 @@ footer {
     cursor: pointer;
 }
 
+.footer-section section i {
+    transition: all 0.5s ease-in-out;
+}
+
 .footer-section section i:hover {
     color: #00ADB5;
+    transition: all 0.5s ease-in-out;
+    font-size: 1.7rem;
 }
 
 /* Color Sample 

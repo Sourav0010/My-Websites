@@ -12,7 +12,7 @@
     <meta name="author" content="Sourav Moahnty" />
     <meta name="description" content="About Sourav Mohanty" />
 
-    <script src="script.js"></script>
+    <script defer src="./script.js"></script>
     <script src="https://kit.fontawesome.com/bb66e9250e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,11 +31,17 @@
     <header>
         <nav>
             <h2>Sourav Mohanty</h4>
+                <div class="burgers">
+                    <div class="burger1"></div>
+                    <div class="burger2"></div>
+                    <div class="burger3"></div>
+                </div>
                 <ul class="main-menu">
-                    <li><a href="#main-section"> HOME</a></li>
-                    <li><a href="#about-section"> ABOUT</a></li>
-                    <li><a href="#project-section"> PROJECTS</a></li>
+                    <li><a href="#main-section" class="a1"> HOME</a></li>
+                    <li><a href="#about-section" class="a1"> ABOUT</a></li>
+                    <li><a href="#project-section" class="a1"> PROJECTS</a></li>
                 </ul>
+
         </nav>
     </header>
     <!-- NavBar Section Ends -->
@@ -193,12 +199,13 @@
                     Mohanty </p>
             </div>
         </footer>
-
         <!-- Footer Section  -->
 
     </main>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+        integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
